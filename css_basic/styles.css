@@ -1,6 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-shadow: 5px;
 }
 
 main {
@@ -17,4 +21,11 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: blueviolet;
+    box-shadow: 5px;
+}
+
+img {
+    height: 10px;
+    width: 10px;
 }
