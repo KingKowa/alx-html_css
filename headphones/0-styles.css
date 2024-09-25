@@ -1,0 +1,23 @@
+:root {
+    --light-red-color: #FF6565;
+    --white: #FFFFFF;
+}
+
+header {
+    background-color: black;
+    background-image: url(images/desktop/background.png);
+    width: 1400px;
+    height: 800px;
+}
+
+.main-header-section {
+    width: 637px;
+    height: 313px;
+    color: var(--white);
+}
+
+.call-to-action {
+    background-color: var(--light-red-color);
+    color: var(--white);
+    font-size: 14px;
+}

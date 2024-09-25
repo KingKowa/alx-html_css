@@ -57,6 +57,12 @@ h1 {
     margin: auto;
 }
 
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .guest {
     display: flex;
     align-items: center;
@@ -96,6 +102,12 @@ h1 {
     display: block;
 }
 
+.fourth-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fifth-section {
     width: 920px;
     height: 707px;
@@ -119,4 +131,8 @@ h2 {
     background-color: #071629;
     width: 1440px;
     height: 249px;
+}
+
+.copyright {
+    color: white;
 }
