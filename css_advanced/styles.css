@@ -71,6 +71,10 @@ h1 {
     height: 234px;
 }
 
+.speakers {
+    display: flex;
+}
+
 .img-box1 {
     width: 150px;
     height: 237px;
@@ -100,6 +104,11 @@ h1 {
 
 .smiley {
     display: block;
+}
+
+.play-btn {
+    margin-left: -180px;
+    align-self: center;
 }
 
 .fourth-section-flex {
