@@ -162,3 +162,12 @@ li a {
     background-image: url(images/desktop/background2.png);
     background-repeat: no-repeat;
 }
+
+/* Main Section - Contact Us Section */
+
+.form-section {
+    width: 335px;
+    height: 373px;
+    margin-top: 70px;
+    margin-left: 560px;
+}
