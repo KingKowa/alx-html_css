@@ -1,0 +1,163 @@
+:root {
+    --light-red-color: #FF6565;
+    --white: #FFFFFF;
+}
+
+/**,
+*::after,
+*::before {
+    box-sizing: border-box;
+}*/
+
+body {
+    margin: 0;
+    font-family: "Source Code Pro", monospace;
+}
+
+header {
+    /*background-color: black;*/
+    background-image: url(images/desktop/background.png);
+    width: 100%;
+    /*height: 800px;*/
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.nav-section {
+    max-width: 1000px;
+    margin-left: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-family: sans-serif;
+    gap: 20px;
+}
+
+li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    gap: 60px;
+}
+
+.button {
+  background-color: var(--light-red-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.main-header-section {
+    width: 637px;
+    height: 313px;
+    color: var(--white);
+    margin-left: 350px;
+    margin-top: 350px;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: var(--light-red-color);
+    color: var(--white);
+    font-size: 14px;
+}
+
+.main-header-section h1 {
+    text-align: center;
+}
+
+.main-header-section h5 {
+    text-align: center;
+}
+
+.main-header-section .btn {
+    text-align: center;
+}
+
+.main-header-section p {
+    text-align: center;
+}
+
+.nav-menu li a:hover{
+    color: var(--light-red-color);
+}
+
+/* Main Section - What we do section */
+
+.what-we-do h2 {
+    text-align: center;
+
+}
+
+.what-we-do p {
+    text-align: center;
+
+}
+
+.introduction {
+    width: 637px;
+    height: 184px;
+    margin-left: 350px;
+}
+
+.intro-components {
+    display: flex;
+    width: 1002px;
+    height: 193px;
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+/* Main Section - Our Results section */
+
+.results h2 {
+    text-align: center;
+    color: var(--white);
+}
+
+.results p {
+    text-align: center;
+    color: var(--white);
+}
+
+.results-intro {
+    width: 637px;
+    height: 184px;
+    margin-left: 350px;
+}
+
+.results-components {
+    display: inline;
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+    margin-left: 250px;
+}
+
+.results {
+    background-image: url(images/desktop/background2.png);
+}
