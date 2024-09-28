@@ -63,12 +63,13 @@ li a {
   background-color: var(--light-red-color);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 20px;
+  font-weight: bold;
 }
 
 .main-header-section {

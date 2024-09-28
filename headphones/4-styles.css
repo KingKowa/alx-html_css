@@ -173,3 +173,27 @@ li a {
     margin-top: 70px;
     margin-left: 560px;
 }
+
+/* Footer Section */
+
+.footer-section {
+    background-color: var(--black);
+    width: 1400px;
+    height: 249px;
+}
+
+.footer-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 840px;
+    padding-top: 115px;
+    margin-left: 240px;
+}
+
+.copyright {
+    color: var(--white);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
