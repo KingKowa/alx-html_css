@@ -164,6 +164,10 @@ li a {
     background-repeat: no-repeat;
 }
 
+.menu-icon {
+    display: none;
+}
+
 
 @media (max-width: 800px ) {
     .nav-menu {
