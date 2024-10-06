@@ -1,3 +1,12 @@
+:root {
+    --light-red-color: #FF6565;
+    --white: #FFFFFF;
+    --black: #071629;
+    --purple: #C271FF;
+}
+
+
+
 * {
     font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
@@ -57,6 +66,11 @@ h1 {
     margin: auto;
 }
 
+.span-class {
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .second-section {
     display: flex;
     align-items: center;
@@ -69,6 +83,8 @@ h1 {
     justify-content: space-evenly;
     width: 1009px;
     height: 234px;
+    margin-right: 190px;
+    color: #FFFFFF;
 }
 
 .speakers {
@@ -90,6 +106,10 @@ h1 {
     height: 237px;
 }
 
+.img-box3 img {
+    border-radius: 75px;
+}
+
 .img-box4 {
     width: 150px;
     height: 237px;
@@ -98,8 +118,12 @@ h1 {
 .second-section {
     width: 1440px;
     height: 392px;
-    background-color: purple;
+    background-color: var(--purple);
 
+}
+
+section.second-section {
+    margin-top: 100px;
 }
 
 .smiley {
@@ -111,10 +135,20 @@ h1 {
     align-self: center;
 }
 
+img.play-btn {
+    position: relative;
+    bottom: 40px;
+}
+
+.fourth-section {
+    background-color: var(--black);
+}
+
 .fourth-section-flex {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFFFFF;
 }
 
 .fifth-section {
@@ -133,6 +167,7 @@ h1 {
 
 h2 {
     text-align: center;
+    color: #FFFFFF;
 }
 
 
@@ -144,4 +179,44 @@ h2 {
 
 .copyright {
     color: white;
+}
+
+
+.copyright {
+    color: var(--white);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: var(--purple);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+.footer-section {
+    background-color: var(--black);
+    width: 1400px;
+    height: 249px;
+}
+
+.footer-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 840px;
+    padding-top: 115px;
+    margin-left: 240px;
 }
