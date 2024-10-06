@@ -1,15 +1,29 @@
-## 👥 Authors <a name="authors"></a>
+# Project Name : ADVANCED CSS
 
-> Mention all of the collaborators of this project.
+## Description of the project.
 
-👤 **Author1**
+1. The purpose of this project is to implement a  desktop versions from the provided html code.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+2. Add "header" section to the project.
 
-👤 **Author2**
+3. Add a main section to the project.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+4. Add a footer
+
+## Built With : 
+Major languages : HTML5, CSS3 
+Technologies used
+Live Demo (if available)
+Live Demo Link 
+
+## Getting Started
+
+
+To get a local copy up and running follow these simple example steps.
+
+
+###### 👤 Author1 Frederick Ankomah
+
+GitHub: @KingKowa
+Twitter: @kingkowa1
+LinkedIn: https://www.linkedin.com/in/frederick-ankomah
